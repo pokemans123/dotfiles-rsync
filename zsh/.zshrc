@@ -4,9 +4,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 export OLLAMA_ORIGINS="*"
 export XDG_DATA_DIRS="$XDG_DATA_DIRS:/var/lib/flatpak/exports/share:/home/$USER/.local/share/flatpak/exports/share"
-
+export EDITOR=nvim
 ZSH_THEME="minimal"
-
+eval "$(zoxide init zsh)"
 plugins=(
     git
     archlinux
